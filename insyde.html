@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSYDE CREATIVE | Future Tech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <a href="#home" class="logo-container">
+            <img src="IMGCSS/Insydelogo.png" alt="INSYDE CREATIVE Logo" class="logo-img">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="event.html">Events</a></li> 
+		<li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <video autoplay muted loop playsinline class="hero-video-bg">
+            <source src="bg-video.mp4" type="video/mp4">
+        </video>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="glitch-text animate-on-scroll">We Design <br>The Future.</h1>
+                <p class="animate-on-scroll">INSYDE CREATIVE blends strategy, branding, and digital innovation through a futuristic, borderless lens.</p>
+                <button class="cta-btn animate-on-scroll" onclick="window.location.href='aboutus.html'">Learn More</button>
+            </div>
+            
+            <div class="hero-visual animate-on-scroll" style="transition-delay: 0.3s">
+                <div class="hero-media-container">
+                    <video autoplay muted loop playsinline class="hero-media">
+                        <source src="IMGCSS/MotionGraphic.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="animate-on-scroll">About Us</h2>
+        <div class="about-grid">
+            <div class="about-text animate-on-scroll" style="transition-delay: 0.1s">
+                <p>Based in Northern Malaysia, INSYDE CREATIVE is a next-generation agency engineering fresh ideas and high-impact digital solutions.</p>
+                <p>Originally initiated as <strong>Comixes Production</strong> in 2024, our system underwent a massive upgrade in 2025. By fusing our core architecture with the digital division of <strong>TempatKu PG</strong>, we evolved into the powerhouse known today as INSYDE CREATIVE—built to push boundaries and redefine the digital landscape.</p>
+            </div>
+            
+            <div class="about-stats animate-on-scroll" style="transition-delay: 0.3s">
+                <div class="stat-box">
+                    <span class="stat-number">2024</span>
+                    <span class="stat-label">System Origin</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">v2.0</span>
+                    <span class="stat-label">Merger Evolution</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2 class="animate-on-scroll">System Capabilities</h2>
+        <div class="services-grid">
+            <div class="service-item animate-on-scroll" style="transition-delay: 0.1s">
+                <h3>Brand Identity</h3>
+                <p>Engineered visual systems, holographic tone of voice, and future-proof brand guidelines used in the digital space.</p>
+            </div>
+            <div class="service-item animate-on-scroll" style="transition-delay: 0.3s">
+                <h3>Digital Strategy</h3>
+                <p>High-frequency social media management, SEO algorithms, and targeted data-driven content marketing campaigns.</p>
+            </div>
+            <div class="service-item animate-on-scroll" style="transition-delay: 0.5s">
+                <h3>Creative Production</h3>
+                <p>Next-gen cinematography, videography, and motion graphic design to transmit your story across all platforms.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="portfolio">
+        <h2 class="animate-on-scroll">Deployed Units</h2>
+        <div class="work-grid">
+            <div class="work-card animate-on-scroll">
+                <img src="IMGCSS/KOMTARCAR1.jpg" alt="Komtar Carnival" class="work-bg-img">
+                <div class="work-label">Komtar Carnival</div>
+            </div>
+            
+            <div class="work-card animate-on-scroll" style="transition-delay: 0.2s">
+                 <img src="IMGCSS/HPA_MAIN.jpg" alt="HARI PENDIDIKAN AWAM" class="work-bg-img">
+                 <div class="work-label">HARI PENDIDIKAN AWAM</div>
+            </div>
+            
+            <div class="work-card animate-on-scroll" style="transition-delay: 0.4s">
+                 <img src="IMGCSS/FGMX_1.jpg" alt="FGMX Opening Ceremony" class="work-bg-img">
+                 <div class="work-label">FGMX Opening Ceremony</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 INSYDE CREATIVE SYSTEMS. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
